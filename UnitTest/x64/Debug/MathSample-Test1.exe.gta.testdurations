@@ -3,5 +3,9 @@
   <Executable>C:\Users\kaios\OneDrive\Documents\CPlus\eliziane\UnitTest\x64\Debug\MathSample-Test1.exe</Executable>
   <TestDurations>
     <TestDuration Test="MathTestCase.MathTestSqrt9" Duration="1" />
+    <TestDuration Test="MathTestCase.TestIfIsPositive" Duration="1" />
+    <TestDuration Test="MathTestCase.TestIfNumberIsPositive" Duration="1" />
+    <TestDuration Test="MathTestCase.TestSum" Duration="1" />
+    <TestDuration Test="MathTestCase.TestMinus" Duration="1" />
   </TestDurations>
 </GtaTestDurations>

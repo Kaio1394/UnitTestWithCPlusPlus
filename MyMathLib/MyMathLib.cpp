@@ -12,3 +12,23 @@ double mySqrt(double x) {
 	}
 	return sqrt(x);
 }
+bool isPositive(double x) {
+	if (x > 0.0) {
+		return true;
+	}
+	else {
+		return false;
+	}	
+}
+int sum(int x, int y) {
+	return x + y;
+}
+
+int minus(int x, int y) {
+	if (x >= y) {
+		return x - y;
+	}
+	else {
+		return 0;
+	}
+}
