@@ -7,5 +7,6 @@
     <TestDuration Test="MathTestCase.TestIfNumberIsPositive" Duration="1" />
     <TestDuration Test="MathTestCase.TestSum" Duration="1" />
     <TestDuration Test="MathTestCase.TestMinus" Duration="1" />
+    <TestDuration Test="MathTestCase.TestOnlyPositiveNumberInVector" Duration="1" />
   </TestDurations>
 </GtaTestDurations>
