@@ -5,6 +5,7 @@
 #include "framework.h"
 #include <math.h>
 #include <stdexcept>
+#include <vector>
 
 double mySqrt(double x) {
 	if (x < 0) {
@@ -31,4 +32,14 @@ int minus(int x, int y) {
 	else {
 		return 0;
 	}
+}
+std::vector<int> positiveInVector(std::vector<int>* vector) {
+	std::vector<int> positiveVector;
+	
+	for (auto element : *vector) {
+		if (element > 0) {
+			positiveVector.push_back(element);
+		}
+	}
+	return positiveVector; 
 }

@@ -16,3 +16,12 @@ TEST(MathTestCase, TestSum) {
 TEST(MathTestCase, TestMinus) {
 	ASSERT_EQ(0, minus(1, 3));
 }
+
+TEST(MathTestCase, TestOnlyPositiveNumberInVector) {
+	std::vector<int> vector{-5, 20, 11, -1, 0, 21, 13, -3, -15};
+	std::vector<int> positiveVector = positiveInVector(&vector);
+	for (auto element : positiveVector) {
+		EXPECT_GE(element, 0);
+	}
+	
+}
